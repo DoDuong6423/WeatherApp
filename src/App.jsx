@@ -56,7 +56,7 @@ function App() {
         setHasNoResults(true);
       }
     },
-    [filterHourlyForecast] // dependencies
+    [filterHourlyForecast]
   );
 
   // Lấy dữ liệu thời tiết của thành phố mặc định (Hà Nội) khi render lần đầu
