@@ -2,7 +2,7 @@ export default function CurrentWeather({ currentWeather }) {
   return (
     <div className="current-weather">
       <img
-        src={`/icons/${currentWeather.weatherIcon}.svg`}
+        src={`/icons/${currentWeather.weatherIcon ?? "no-result"}.svg`}
         className="weather-icon"
       />
       <h2 className="temperature">
